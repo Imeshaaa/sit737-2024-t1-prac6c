@@ -1,0 +1,17 @@
+{
+    "name": "sit737-2024-t1-prac6p",
+    "version": "1.0.0",
+    "description": "sit 737 T1 week 6 prac",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server_get.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Imeshaaa/sit737-2024-t1-prac6p.git"
+    },
+    "author": "Imesha Ilangasinghe",
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+}

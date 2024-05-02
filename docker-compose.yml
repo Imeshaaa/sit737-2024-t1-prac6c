@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    image: imeshaaa/node-web-app
+    ports:
+      - '3043:3040'
+    environment:
+      - PORT=3043
+    networks:
+      - my-net
+
+networks:
+  my-net:
+    driver: bridge
